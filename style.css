@@ -1,21 +1,9 @@
-/* Media Queries */
+
 body {
     display: flex;
     justify-content: space-around;
 }
-@media (max-width: 1030px) {
-    h1 {
-      background-color: red;
-    }
-  
-    h2 {
-      color: red;
-    }
-  
-    p {
-      font-size: 120%;
-    }
-  
+ (max-width: 1030px) {
     .card_container {
       flex-direction: column;
       align-items: center;
@@ -26,15 +14,8 @@ body {
     }
   }
   
-  @media (max-width: 530px) {
-    h1 {
-      background-color: blue;
-    }
-  
-    p {
-      font-size: 150%;
-    }
-  
+   (max-width: 530px) {
+       
     .card {
       width: 80%;
     }
